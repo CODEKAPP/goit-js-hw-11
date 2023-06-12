@@ -1,0 +1,118 @@
+/* Estilo general */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+  background-color: #7d7676;
+}
+
+header {
+  padding: 10px;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #fff;
+  width: fit-content;
+  padding: 8px 14px;
+  border-radius: 20px;
+  margin: 0 auto;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type='text'] {
+  padding: 8px 14px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 300px;
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+button[type='submit'] {
+  margin-left: 5px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+button[type='submit']:hover {
+  background-color: #45a049;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.photo-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.photo-card a {
+  display: block;
+}
+
+.photo-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.info {
+  margin-top: 10px;
+}
+
+.info-item {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 5px;
+}
+
+.load-more-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.load-more {
+  margin-top: 20px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+button[type='button'] {
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button[type='button']:hover {
+  background-color: #45a049;
+}
